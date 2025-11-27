@@ -37,5 +37,5 @@ class Stack {
 
   bool empty() { return !top; }
 
-  T peek() { return tol->val; }
+  T peek() { return top->val; }
 };
